@@ -5,6 +5,7 @@ import Vission from "./sections/Vission";
 import AboutUs from "./sections/AboutUs";
 import Positions from "./sections/Positions";
 import PageEnd from "@/app/sections/PageEnd";
+import Openings from './sections/Openings';
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
                 <div><Positions/></div>
             </div>
              <div id='recruitment'><RecruitmentProcess/></div>
+             <div id='openings'><Openings/></div>
             <div><PageEnd/></div>
 
         </div>
